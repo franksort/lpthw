@@ -1,0 +1,2 @@
+Exercise 3 and 4 deal with a computer's limitation when storing floats.
+I should probably refresh my memory on the topic.
