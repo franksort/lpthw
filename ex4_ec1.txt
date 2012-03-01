@@ -1,0 +1,11 @@
+Using a integer vs. a floating point number for
+space_in_a_car only matters in the following line:
+carpool_capacity = cars_driven * space_in_a_car
+
+cars_driven is an integer.  When space_in_a_car is
+an integer, carpool_capacity contains an integer.  When
+space_in_a_car is a float, carpool_capacity is a float.
+
+In this particular case, using a float vs. an int has no
+effect on the result since the operation involves
+the  multiplication of whole numbers.

@@ -1,0 +1,14 @@
+EC: Describe the following Python error in your own words.
+
+Traceback (most recent call last):
+    File "ex4.py", line 8, in <module>
+        average_passengers_per_car = car_pool_capacity / passenger
+NameError: name 'car_pool_capacity' is not defined
+
+There was an error while Python interpretted your code.
+Python will output an traceback to help you solve the problem.
+The traceback shows the nested procedure calls leading to the error.
+The error was in file: ex4.py on line 8 in the global scope?
+(Not sure what <module> means here.)
+The exception NameError was thrown because the token
+    car_pool_capacity was not defined before being used.
