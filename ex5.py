@@ -10,7 +10,6 @@ hair = 'Brown'
 
 # %d, %s, %f, etc... are called format specifiers
 # according to www.python.org/dev/peps/pep-3101
-
 print "Let's talk about %r." % name
 print "He's %d inches or %d centimeters tall." % (height, height_cm)
 print "He's %d pounds or %d kilograms heavy." % (weight, weight_kg)
