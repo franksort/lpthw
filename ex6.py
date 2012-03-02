@@ -14,14 +14,17 @@ x = "There are %d types of people." % 10
 binary = "binary"
 # The string don't is assigned to the variable named do_not
 do_not = "don't"
+# EC2 string is put inside a string #1
+# EC3 really two strings are put into the format string
 y = "Those who know %s and those who %s." % (binary, do_not)
 
 # Simple printing of variables.
 print x
 print y
 
-print "I said: %r." % x
-print "I also said: '%s'." % y
+
+print "I said: %r." % x # EC2 string is put inside a string #2
+print "I also said: '%s'." % y # EC2 string is put inside a string #3
 
 # Assigning boolean to variable.
 hilarious = False
@@ -30,7 +33,7 @@ joke_evaluation = "Isn't that joke so funny?! %r"
 
 # the format specifier in joke_evaluation is replaced by the string value
 # of hilarious and formatted according to the format specifier's options
-print joke_evaluation % hilarious
+print joke_evaluation % hilarious # EC2 string is put inside a string #4
 
 # Assignment strings to variables.
 w = "This is the left side of..."
@@ -38,4 +41,5 @@ e = "a string with a right side."
 
 # Since both variables are string objects, the + operator 
 # concats them together (notice, no spaces)
+# EC4 ^
 print w + e
