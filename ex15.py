@@ -27,3 +27,22 @@ txt_again = open(file_again)
 # Using the read() method of the file object txt_again to 
 # return the contents of the file and printing it.
 print txt_again.read()
+
+# EC 3
+# This is how a function is typically defined.
+def something(somearg):
+    """This is a docstring telling you about the function."""
+    print "This is a function and the argument is: %r" % somearg
+
+# Here's one with a multi-line docstring according to PEP 0257
+def something_else(somearg):
+    """This is a function
+    that does something about whatever.
+    """
+    print "Some function and here's the arguments: %r" % somearg
+
+# Calling the function:
+something("hello")
+
+# Calling the other function:
+something_else("hi")
