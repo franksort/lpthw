@@ -3,19 +3,19 @@ from sys import argv
 
 # Use argv to get the command arguments (the first one being
 # the name of the script)
-script, filename = argv
+# script, filename = argv
 
 # Creating a file object and storing it in the txt variable.
-txt = open(filename)
+# txt = open(filename)
 
 # Use a format string to print the filename.
 print "Here's your file %r:" % filename
 # Running the read() method on the file object txt
 # to get the contents of the file.
-print txt.read()
+# print txt.read()
 
 # Printing a string.
-print "Type the filename again:"
+print "Type the filename:"
 
 # EC 4:
 # when this raw_input is removed, file_again (which contains the
@@ -29,7 +29,11 @@ print "Type the filename again:"
 
 # Using raw_input to read a string from stdin with a the prompt
 # being "> "
-# file_again = raw_input("> ")
+
+# EC 5: Only using raw_input to get the name of the file.
+# One reason is that we can error check that the path is correct
+# and loop the raw_input to get a working path.
+file_again = raw_input("> ")
 
 # Creating a file_object from file_again and storing it in txt_again
 txt_again = open(file_again)
