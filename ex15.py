@@ -3,16 +3,18 @@ from sys import argv
 
 # Use argv to get the command arguments (the first one being
 # the name of the script)
-# script, filename = argv
+script, filename = argv
 
 # Creating a file object and storing it in the txt variable.
-# txt = open(filename)
+txt = open(filename)
 
 # Use a format string to print the filename.
 print "Here's your file %r:" % filename
 # Running the read() method on the file object txt
 # to get the contents of the file.
-# print txt.read()
+print txt.read()
+# EC8: Closing the file object.
+txt.close()
 
 # Printing a string.
 print "Type the filename:"
@@ -41,6 +43,7 @@ txt_again = open(file_again)
 # Using the read() method of the file object txt_again to 
 # return the contents of the file and printing it.
 print txt_again.read()
+txt_again.close()
 
 # EC 3
 # This is how a function is typically defined.
