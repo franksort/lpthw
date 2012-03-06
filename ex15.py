@@ -17,9 +17,19 @@ print txt.read()
 # Printing a string.
 print "Type the filename again:"
 
+# EC 4:
+# when this raw_input is removed, file_again (which contains the
+# path to the file I want to open) is not defined.
+# Thus the interpretter gives an error.  In this case a NameError
+# Exception:
+# Traceback (most recent call last):
+# File "ex15.py", line 25, in <module>
+#     txt_again = open(file_again)
+#     NameError: name 'file_again' is not defined
+
 # Using raw_input to read a string from stdin with a the prompt
 # being "> "
-file_again = raw_input("> ")
+# file_again = raw_input("> ")
 
 # Creating a file_object from file_again and storing it in txt_again
 txt_again = open(file_again)
