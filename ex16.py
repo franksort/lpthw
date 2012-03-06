@@ -5,6 +5,8 @@
 #   The file will be created if it doesn't exist
 #   when opened for writing or appending; it will be truncated when
 #   opened for writing.
+# The above explanation also covers EC5.
+# EC4, without an argument, open defaults to 'r' or read.
 from sys import argv
 
 script, filename = argv
