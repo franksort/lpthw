@@ -50,3 +50,47 @@ print "And we can combine the two, variables and math:"
 # contains the value 10 and 10 + 100 = 110.  Similar story with
 # amount_of_crackers + 1000.
 cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
+
+
+# Extra Credit #3
+def greeter(first_name, last_name, age):
+    print 'Hello %s %s!' % (first_name, last_name)
+    print 'You seem younger than %d.' % age
+    print 'See ya.'
+
+# Run 1
+greeter('John', 'Doe', 27)
+
+# Run 2
+fn = 'John'
+ln = 'Doe'
+greeter(fn, ln, 27)
+
+# Run 3
+age = 27
+greeter(fn, ln, age)
+
+# Run 4
+greeter('Sam', ln, 27)
+
+# Run 5
+greeter(fn, 'Mary-Lou', 49)
+
+# Run 6
+# Probably didn't spell this right.
+greeter('Jean' + '-' + 'Luc', 'Picard', 40)
+
+# Run 7
+greeter('John', 'Pick', 12 * 40 / 12)
+
+# Run 8
+greeter(fn, ln, age + 10)
+
+# Run 9
+greeter(fn, ln, age + 20)
+
+# Run 10
+greeter(fn, ln, 30 + age)
+
+# Ran out of ideas near the end.  Well, using only the lessons
+# learned in this exercise anyway.
