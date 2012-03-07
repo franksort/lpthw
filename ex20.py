@@ -52,13 +52,23 @@ current_line = 1
 print_a_line(current_line, current_file)
 
 # Incrementing the value of current_line by 1.
-current_line = current_line + 1
+current_line += 1 # EC 5
 # Calling the print_a_line function with the values of 
 # current_line and current_file as actual arguments.
 print_a_line(current_line, current_file)
 
 # Incrementing the value of current_line by 1.
-current_line = current_line + 1
+current_line += 1 # EC 5
 # Calling the print_a_line function with the values of 
 # current_line and current_file as actual arguments.
 print_a_line(current_line, current_file)
+
+
+# EC 5
+# += might be called in-place addition.  In the documentation for
+# operator it's operator.iadd(a, b)
+# A test:
+# >>> import operator
+# >>> somevar = 5
+# >>> operator.iadd(somevar, 1)
+# 6
