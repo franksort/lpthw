@@ -1,5 +1,9 @@
+# EC 1, 2: Nothing looks confusing to me so I'm not commenting
+# this file line by line.  Also, I broke the file, saw the
+# error msg and fixed it.
+
 print "Let's practice everything."
-print 'You\'d eed to know \'bout escapes with \\ that do \n newlines and \t tabs.'
+print 'You\'d need to know \'bout escapes with \\ that do \n newlines and \t tabs.'
 
 poem = """
 \tThe lovely world
