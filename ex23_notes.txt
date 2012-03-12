@@ -1,0 +1,18 @@
+I looked at some code on GitHub.  Mainly shovel by seomoz.
+
+Some thoughts:
+
+The Python ecosystem seems to copy the Ruby ecosystem, despite having
+been around longer.  In this case shovel is a port of Rake, 
+which I think is a common tool used by Railers.
+
+A lot of programming involves cruft.  Paths, dates, cramming
+data into arrays and getting it back out.  There's also the
+software engineering necessary to get things running.  That involves
+installing the right software, keeping it up to date, finding and
+learning how to use the right modules, version control, and 
+environment control.  It can be tiring and not very 
+intellectually stimulating.
+
+But if after all that, you solve a problem or make something that 
+someone uses, it feels pretty good.
