@@ -40,3 +40,11 @@ print "Verifying value of puzzle: %d" % what_verify
 what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
 
 print "That becomes: ", what, "Can you do it by hand?"
+
+
+# EC4: (2 + 3) * 20
+ec4 = multiply(add(2, 3), 20)
+print "ec4 = %d" % ec4
+
+
+
