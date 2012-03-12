@@ -35,6 +35,12 @@
 # 
 # Line 38
 # Control-D to exit the shell.
+
+# EC4
+# Interesting that import ex25 works even when I create
+# an error in the module.  It only errors when the function
+# containing the error is used.
+
 def break_words(stuff):
     """This function will break up words for us."""
     words = stuff.split(' ')
