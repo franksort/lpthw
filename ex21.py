@@ -14,6 +14,11 @@ def divide(a, b):
     print "DIVIDING %d / %d" % (a, b)
     return a / b
 
+# EC1
+def hello_generator(times):
+    return "hello" * times
+hellos = hello_generator(3)
+print hellos
 
 print "Let's do some math with just functions!"
 
