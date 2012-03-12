@@ -1,0 +1,41 @@
+"   double quote             creates strings
+'   single quote             creates strings
+#   pound or hash            starts a comment
+,   comma                    seperates two expressions?
+.   period or dot            can be used as a decimal point,
+                             or to call a method of an object
++   plus                     adds
+-   minus or dash            subtracts
+*   multiply sign            multiplies, or used to denote multiple
+    or asterisks             args like def func(*args):
+/   forward slash            divides
+//  two forward slashes      line comment
+%   modulo sign              gives remainder of division operation
+    or percent sign
+    or string formatting
+       operator              also used to pass a value to into a 
+                             format string
+                             ex. print "Cash: %d" % dollars
+<   less than                evaluate if one expression is less
+                             than the other
+=   equals                   assignment.
+                             can assign simple strings or digits to
+                             variables or functions to variables
+                             or objects to variables.
+                             Probably more.
+(   open paren               starts an expression
+)   close paren              ends an expression
+\n  newline char             when used in a string, creates a new line
+""" triple double quote      Creates multiline strings 
+''' triple single quote      Creates multiline strings
+\   backslash                In a string, tells the interpreter
+    or escape char           that the following character should
+                             be treated in a special way...
+                             This is a bad definition.
+_   underscore               Used to denote private methods in 
+                             objects or seperate multi-word
+                             variable names
+^   carrot                   Start of a control character like
+                             ^C to terminate a program
+[   open bracket             creates a list?, used to get an item
+]   close bracket            Should probably look this up.
