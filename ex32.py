@@ -6,6 +6,17 @@ So range(4) returns the list [0, 1, 2, 3]
 EC 2
 Yes, let's try that.
 
+EC 3
+Gold mine of information about lists at
+http://docs.python.org/tutorial/datastructures.html
+
+I read about the various methods lists have,
+how to use lists as stacks (pop() and append())
+and what filter, map and reduce are.
+
+I should read more about comprehensions, etc...
+later.
+
 """
 the_count = [1, 2, 3, 4, 5]
 fruits = ['apples', 'oranges', 'pears', 'apricots']
