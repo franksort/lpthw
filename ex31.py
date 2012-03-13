@@ -21,11 +21,14 @@ elif door == "2":
     print "1. Blueberries."
     print "2. Yellow jacket clothespins."
     print "3. Understanding revolvers yelling melodies."
+    print "4. Remember your constant."
 
     insanity = raw_input("> ")
 
     if insanity == "1" or insanity == "2":
         print "Your body survives powered by a mind of jello.  Good job!"
+    elif insanity == "4":
+        print "You regain sanity and run."
     else:
         print "The insanity rots your eyes into a pool of muck.  Good job!"
 
