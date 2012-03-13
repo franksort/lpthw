@@ -19,3 +19,20 @@ print '17.', not ("testing" == "testing" and "Zed" == "Cool Guy"), True
 print '18.', 1 == 1 and not ("testing" == 1 or 1 == 0), True
 print '19.', "chunky" == "bacon" and not (3 == 4 or 3 == 3), False
 print '20.', 3 == 3 and not ("testing" == "testing" or "Python" == "Fun"), False
+
+
+# Extra Credit 1, 2
+# According to the Python docs, equality operators are called
+# comparison operators.  They are:
+# Sym.    Desc.                          What I Call the Sym.
+# <       strictly less than             less than
+# <=      less than or equal             less than or equal to
+# >       strictly greater than          greater than
+# >=      greater than or equal          greater than or equal to
+# ==      equal                          equal
+# !=      not equal (<> but obsolete)    not equal
+# is      object identity                is
+# is not  negated object identity        is not
+
+# EC3, I've played enough.
+# EC4, ok...
