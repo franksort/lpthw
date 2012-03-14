@@ -10,6 +10,18 @@
 # the proper use of a Python lists.  Just remember Python lists 
 # start at 0.
 
+# EC 2
+# Dates are in order, using Ordinal Numbers.
+
+# Why do arrays usually start with 0?
+# Dijkstra gives us a mathematical argument as to why they *should*.
+# http://www.cs.utexas.edu/users/EWD/transcriptions/EWD08xx/EWD831.html
+
+# C arrays just reference memory address offsets.
+# So array[0] is the memory address of the array + 0.
+# array[1] is the memory location of the array + 1
+# Something like that.
+
 animals = ['bear', 'python', 'peacock', 'kangaroo', 'whale', 'platypus']
 
 """
