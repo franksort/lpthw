@@ -1,6 +1,14 @@
 # Accessing items in a list
-# Ordinal (an ordered list index, starting at 1)
-# Cardinal (an index used for random access, starting at 0)
+
+# EC 1
+# 
+# Ordinal Number
+# Specifies the position of an element in an ordered set. (Math)
+# 
+# Cardinal Number
+# The real definition is lengthy and not all that necessary to 
+# the proper use of a Python lists.  Just remember Python lists 
+# start at 0.
 
 animals = ['bear', 'python', 'peacock', 'kangaroo', 'whale', 'platypus']
 
