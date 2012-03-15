@@ -1,7 +1,5 @@
 from sys import exit
 
-def prompt():
-    return raw_input("> ")
 
 def gold_room():
     """Places the player in the Gold Room."""
@@ -24,31 +22,31 @@ def god_room(gold):
     print "A man dressed in a white suit addresses you."
     print "\"I am God.  Would you like to get into heaven?\""
 
-    next = prompt()
+    next = raw_input("> ")
 
     if next.lower() == "yes":
         print "\"Very well.  How much gold will you give me?\""
-
-        good = False 
-        while not good:
-            amount = prompt()
-            if amount.isdigit():
-                good = True
-            else:
-                print "I do not understand.  Enter an amount."
-
-        amount = int(amount)
-
-        if amount == gold:
-            print "You win."
-            exit(0)
-        elif amount < gold:
-            dead("Your greed has damned you.")
-        else:
-            dead("You can't give what you don't have.")
     else:
-        print "Very well, visit Cthulhu."
+        print "\"Very well, visit Cthulhu.\""
         cthulhu_room()
+
+    good = False 
+    while not good:
+        amount = raw_input("> ")
+        if amount.isdigit():
+            good = True
+        else:
+            print "I do not understand.  Enter an amount."
+
+    amount = int(amount)
+
+    if amount == gold:
+        print "You win."
+        exit(0)
+    elif amount < gold:
+        dead("Your greed has damned you.")
+    else:
+        dead("You can't give what you don't have.")
 
 def bear_room():
     """Places the player in the Bear Room."""
@@ -110,16 +108,3 @@ def start():
 
 
 start()
-
-
-"""
-
-
-                                
-             left -> Bear Room
-Dark Room ->
-             right -> Cthulhu Room
-                            flee, back to Dark Room
-                            string with head, dead
-                            anything else back to Cthulhu Room
-"""
