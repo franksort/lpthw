@@ -1,5 +1,8 @@
 from sys import exit
 
+def prompt():
+    return raw_input("> ")
+
 def gold_room():
     """Places the player in the Gold Room."""
     print "This room is full of gold.  How much do you take?"
@@ -11,10 +14,41 @@ def gold_room():
         dead("Man, learn to type a number.")
 
     if how_much < 50:
-        print "Nice, you're not greedy, you win!"
-        exit(0)
+        god_room(how_much)
     else:
         dead("You greedy bastard!")
+
+def god_room(gold):
+    """Places the player in the God Room"""
+    print "You enter an all white room."
+    print "A man dressed in a white suit addresses you."
+    print "\"I am God.  Would you like to get into heaven?\""
+
+    next = prompt()
+
+    if next.lower() == "yes":
+        print "\"Very well.  How much gold will you give me?\""
+
+        good = False 
+        while not good:
+            amount = prompt()
+            if amount.isdigit():
+                good = True
+            else:
+                print "I do not understand.  Enter an amount."
+
+        amount = int(amount)
+
+        if amount == gold:
+            print "You win."
+            exit(0)
+        elif amount < gold:
+            dead("Your greed has damned you.")
+        else:
+            dead("You can't give what you don't have.")
+    else:
+        print "Very well, visit Cthulhu."
+        cthulhu_room()
 
 def bear_room():
     """Places the player in the Bear Room."""
