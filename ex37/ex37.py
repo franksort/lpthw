@@ -45,9 +45,15 @@ except        Exception handling.
 import        Brings a Python modules into the current namespace?
 print         Prints a string to STDOUT.
 class         Creates classes.
-exec
+exec          Executes Python statements stored in a string.
+              ex. exec 'print "Hello"'
+              eval evaluates valid Python expressions which are stored
+              in a string.
+              Know the difference between statements and expressions.
+              ex. eval('3*3')   is going to be 9
 in            Comparison operator that tests for set membership.
               3 in [3, 4, 5] == True
+              Ref: http://docs.python.org/release/2.5.2/ref/comparisons.html
 raise         Exception handling.  Raises an exception.
 continue      Skips the rest of the instructions in a loop and continue
               with the next iteration of the loop.
