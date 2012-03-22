@@ -70,7 +70,79 @@ def           Used for defining functions and methods.
 for           Used to begin a for loop.
 lambda
 try           Exception handling.  Begins a try/catch block.
+
+Data Types
+
+True          Boolean True
+False         Boolean False
+None          None type
+strings       "blah", 'whatever'
+numbers       3, 3e10, -3
+floats        3.0, -4.3
+lists         [1, 2, 3, 4], ["something", "else"]
+
+String Escape Sequences
+
+\\            backslash
+\'            single quote
+\"            double quote
+\a            bell
+\b            backspace
+\f            formfeed?  no idea
+\n            newline charater
+\r            carriage return character
+\t            tab character
+\v            vertical tab character
+
+String Formats
+
+%d            decimal
+%i
+%o
+%u
+%x
+%X
+%e
+%E
+%f
+%F
+%g
+%G
+%c
+%r
+%s            string
+%%
+
+Operators
+
++             plus
+-             minus
+*             multiply
+**          
+/
+//
+%             modulus
+<             less than
+>             greater than
+<=            less than or equal
+>=            greater than or equal
+==            equality
+!=            inequality
+<>            inequality (deprecated)
+()            open paren, close paren
+[]            open bracket, close bracket
+{}            open brace, close brace
+@             at
+,             comma
+:             colon
+.             period, dot
+=             equal, assignment
+;             semi-colon
++=            increment
+-=            decrement
+*=            multiply equals?
+/=            divide equals?
+//=
+%=            modulus equals?
+**=
 """
-
-
-
