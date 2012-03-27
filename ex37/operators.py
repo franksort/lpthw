@@ -1,13 +1,16 @@
 """
 Python Operators
+http://docs.python.org/library/operator.html
 
 +             plus
 -             minus
 *             multiply
-**          
-/
-//
-%             modulus
+**            power, has other meanings
+              raise left operand to the power of the right operand
+              operator.pow(2, 3) == 8
+/             floating-point division, foward slash
+//            floor division (quotient w/out remainder)
+%             modulus (remainder of division)
 <             less than
 >             greater than
 <=            less than or equal
@@ -24,14 +27,14 @@ Python Operators
 .             period, dot
 =             equal, assignment
 ;             semi-colon
-+=            increment
--=            decrement
-*=            multiply equals?
-/=            divide equals?
-//=
-%=            modulus equals?
-**=
 
-TODO: Define what I don't know,
-      do an example for each.
+The following are in-place operators:
+
++=            in-place increment
+-=            in-place decrement
+*=            in-place multiply
+/=            in-place division
+//=           in-place floor division
+%=            in-place modulus
+**=           in-place power
 """
