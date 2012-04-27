@@ -1,0 +1,3 @@
+#!/Users/skettino/.virtualenvs/learn/bin/python
+
+print 'From testing script.'
